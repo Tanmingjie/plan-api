@@ -1,0 +1,14 @@
+server:
+  port: 9099
+  servlet:
+    context-path: /plan-api
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/plan?zeroDateTimeBehavior=convertToNull&verifyServerCertificate=false&useSSL=true
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
